@@ -2,6 +2,7 @@ import { useControls } from 'leva';
 import React, { FC, useEffect } from 'react';
 import * as THREE from 'three';
 import { useAnimations, useGLTF } from '@react-three/drei';
+import { publicPath } from '../utils';
 
 type ModelProps = {
 	path: string
@@ -11,7 +12,7 @@ type ModelProps = {
 
 export const Model: FC<ModelProps> = props => {
 	const { path, ...meshProps } = props
-	const model = useGLTF(path)
+	const model = useGLTF(publicPath(path))
 
 	// animation
 	const datas = useControls({ animetion: true })
