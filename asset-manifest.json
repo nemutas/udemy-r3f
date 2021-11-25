@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/udemy-r3f/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/udemy-r3f/static/js/main.73872478.chunk.js",
+    "main.js.map": "/udemy-r3f/static/js/main.73872478.chunk.js.map",
+    "runtime-main.js": "/udemy-r3f/static/js/runtime-main.4e0a546c.js",
+    "runtime-main.js.map": "/udemy-r3f/static/js/runtime-main.4e0a546c.js.map",
+    "static/js/2.841719a7.chunk.js": "/udemy-r3f/static/js/2.841719a7.chunk.js",
+    "static/js/2.841719a7.chunk.js.map": "/udemy-r3f/static/js/2.841719a7.chunk.js.map",
+    "static/js/3.9d7517c8.chunk.js": "/udemy-r3f/static/js/3.9d7517c8.chunk.js",
+    "static/js/3.9d7517c8.chunk.js.map": "/udemy-r3f/static/js/3.9d7517c8.chunk.js.map",
+    "index.html": "/udemy-r3f/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/udemy-r3f/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.841719a7.chunk.js.LICENSE.txt": "/udemy-r3f/static/js/2.841719a7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e0a546c.js",
+    "static/js/2.841719a7.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.73872478.chunk.js"
+  ]
+}
