@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# About
+このリポジトリは、Udemyのコース受講に伴い作成しました。
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Learn Three.js using React: Build a 3D Tesla Workshop 2021
+](https://www.udemy.com/share/104Ct83@7FFx29034boURdXQki33lt8t6M_J76zii02ZpEPI5k2tWDq_H7QaYj7w_zqc0JR2Uw==/)
 
-## Available Scripts
+ただし、コースで扱っているライブラリのバージョンは、現行のバージョンに比べて古いため、ある程度リファクタリングしています。<br>
+また、コースではJavaScriptでコーディングしていますが、私は受講時に**TypeScript**を使用しました。
 
-In the project directory, you can run:
+# Results
+コースで作成したアプリケーションです。
 
-### `npm start`
+https://nemutas.github.io/udemy-r3f/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+見た目上大きく違うのは、色を変えたりカメラターゲットを切り替えるコントローラーです。コントローラーの外観はコースの趣旨に関係なかったので、簡単に実装できる[leva コントローラー](https://github.com/pmndrs/leva)を使用しました。
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# 3D Model
+3Dモデルは、[Sketchfab](https://sketchfab.com/)からダウンロードしています。
 
-### `npm test`
+* [Tesla Model 3](https://skfb.ly/6QTVO)
+* [Tesla Model S](https://skfb.ly/6QZu9)
+* [Veribot](https://skfb.ly/6QYR6)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+※ コースでは、8-25で[Mech Drone](https://skfb.ly/LMro)を使用していますが、正常に読み込めなかったため、Veribotを代わりに使用しました。<br>
+※ コースで扱っているモデルは、無料でダウンロードできますが、クリエイター様に最大限の感謝を！
 
-### `npm run build`
+# Impressions
+React Three Fiberの学習教材はかなり珍しく、このコース以外にあるのだろうか？というレベルです。<br>
+なので、「少しでもいいから得られる情報があれば儲けもの」くらいの心持ちで受講してみました。（セール時に買って1500円程度だったので）
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+受講後の感想ですが、<br>
+Aboutで書いた通り、使用しているライブラリのバージョンが古いので、現在のバージョンで受講しようとすると、どうしても参照できないプロパティや何やらがありリファクタリングしていく必要があります。<br>
+しかし、「現在のバージョンだとどのように書けるか」調査していく必要があり、ドキュメントを読むいいきっかけになったと思います。
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+個人的にはもう少し §7 pstprocessing を掘り下げて欲しかったです。
